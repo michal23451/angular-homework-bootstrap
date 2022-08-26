@@ -1,0 +1,20 @@
+.header-bar{
+  background-color: gray;
+  height: 20px;
+}
+
+.header-menu{
+  background-color: gainsboro;
+}
+
+.menu-button {
+  border-bottom: 1px solid #B7BF9E;
+  transition: all 1s ease-in;
+}
+
+.menu-button:hover {
+  background-color: gray;
+  transition: all 1s ease-out;
+  animation-name: menu-button-height;
+  animation-duration: 1s;
+}

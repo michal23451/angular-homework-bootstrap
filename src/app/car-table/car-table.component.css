@@ -1,0 +1,15 @@
+.car-table{
+  background-color: #bde0fe;
+}
+
+.menu-button {
+  border-bottom: 1px solid #B7BF9E;
+  transition: all 1s ease-in;
+}
+
+.menu-button:hover {
+  background-color: #2886dd;
+  transition: all 1s ease-out;
+  animation-name: menu-button-height;
+  animation-duration: 1s;
+}
